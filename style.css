@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Efecto de Brillo para Imágenes de Hardware */
+.img-glow {
+    transition: all 0.5s ease;
+}
+
+.img-glow:hover {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.5);
+    transform: translateY(-5px);
+}
+
+/* Animación sutil para tarjetas al entrar */
+.research-card, .service-card {
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.3s ease;
+}
+
+.research-card:hover, .service-card:hover {
+    transform: scale(1.02);
+}
+
+/* Personalización de la barra de scroll */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6;
+}

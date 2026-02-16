@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TechForge | Custom PC </title>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+
+    <nav class="flex justify-between items-center p-6 bg-slate-800/50 backdrop-blur-md sticky top-0 z-50 border-b border-slate-700">
+        <div class="text-2xl font-bold tracking-tighter text-blue-400">
+            <i class="fas fa-microchip mr-2"></i>TECHFORGE
+        </div>
+        <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
+            <a href="#inicio" class="hover:text-blue-400 transition">Inicio</a>
+            <a href="#servicios" class="hover:text-blue-400 transition">Servicios</a>
+            <a href="#investigacion" class="hover:text-blue-400 transition">Investigación</a>
+            <a href="#contacto" class="hover:text-blue-400 transition">Contacto</a>
+        </div>
+        <button class="md:hidden text-2xl text-blue-400"><i class="fas fa-bars"></i></button>
+    </nav>
+
+    <header id="inicio" class="h-[70vh] flex flex-col justify-center items-center text-center px-4">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+            POTENCIA SIN LÍMITES
+        </h1>
+        <p class="text-gray-400 max-w-2xl text-lg mb-8">
+            Diseñamos ensambles de alto rendimiento y exploramos las fronteras de la computación. Optimización para Gaming e Ingeniería.
+        </p>
+        <a href="#investigacion" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/20">
+            Ver Investigación
+        </a>
+    </header>
+
+    <section id="servicios" class="py-20 bg-slate-800/30 px-6">
+        <h2 class="text-3xl font-bold text-center mb-16 uppercase tracking-widest">Nuestros Servicios</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="service-card bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all">
+                <i class="fas fa-tools text-4xl text-blue-500 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Ensamble Profesional</h3>
+                <p class="text-gray-400 text-sm">Montaje meticuloso con gestión de cables avanzada para un flujo de aire óptimo.</p>
+            </div>
+            <div class="service-card bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-purple-500 transition-all">
+                <i class="fas fa-rocket text-4xl text-purple-500 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Optimización & OC</h3>
+                <p class="text-gray-400 text-sm">Configuración de perfiles XMP, actualización de BIOS y optimización de Windows.</p>
+            </div>
+            <div class="service-card bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-green-500 transition-all">
+                <i class="fas fa-shield-alt text-4xl text-green-500 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Mantenimiento</h3>
+                <p class="text-gray-400 text-sm">Limpieza profunda, cambio de pasta térmica y diagnóstico de componentes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="investigacion" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-16 uppercase tracking-widest text-blue-400">Investigación Académica</h2>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            
+            <div class="research-card bg-slate-800/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all flex flex-col">
+                <div class="flex items-center mb-8">
+                    <div class="bg-blue-500/20 p-4 rounded-xl mr-4">
+                        <i class="fas fa-brain text-blue-400 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold">Ensambles</h3>
+                        <p class="text-xs text-blue-400 font-mono tracking-widest">EVIDENCIAS</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6 mb-8">
+                    <div class="bg-slate-900 rounded-2xl p-6 flex justify-center border border-slate-700/50 img-glow">
+                        <img src="https://i.ebayimg.com/images/g/jXgAAOSwO1pnKRmS/s-l1600.webp" 
+                             alt="Hardware Intel Core i5" 
+                             class="w-full max-w-[180px] h-auto object-contain rounded-lg">
+                    </div>
+                    
+                    <div class="bg-slate-900 rounded-2xl overflow-hidden border border-slate-700/50">
+                        <img src="https://imgs.search.brave.com/zqgRk-UIwrWFzzZRwBoCDol78ugBozyYcsTzrRkTaPY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Iz/LzJlLzNjYjMyZWU5/ZTEwNTQ5NDMzMDAy/YzA3ODZiYTYzYmRm/LmpwZw" 
+                             alt="Esquema IA" 
+                             class="w-full h-auto opacity-80 hover:opacity-100 transition duration-500">
+                    </div>
+                </div>
+
+                <p class="text-gray-300 leading-relaxed mb-8">
+                   </span>
+                </p>
+
+                <div class="mt-auto pt-6 border-t border-slate-700/50">
+                    <p class="text-[11px] text-gray-500 font-serif leading-tight">
+                        <span class="italic">Artificial Intelligence: A modern approach</span> (4.ª ed.). Pearson.
+                    </p>
+                </div>
+            </div>
+
+            <div class="research-card bg-slate-800/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700 hover:border-purple-500 transition-all flex flex-col">
+                <div class="flex items-center mb-8">
+                    <div class="bg-purple-500/20 p-4 rounded-xl mr-4">
+                        <i class="fas fa-project-diagram text-purple-400 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold">Eficiencia Algorítmica</h3>
+                        <p class="text-xs text-purple-400 font-mono tracking-widest">ENFOQUE DE INGENIERÍA</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="bg-slate-900 p-6 rounded-2xl border border-purple-500/20 text-center">
+                        <span class="block text-2xl font-bold text-purple-400">$O(V + E)$</span>
+                        <span class="text-[10px] text-slate-500 uppercase">Complejidad DFS</span>
+                    </div>
+                    <div class="bg-slate-900 p-6 rounded-2xl border border-purple-500/20 text-center flex flex-col justify-center">
+                        <i class="fas fa-network-wired text-2xl text-purple-500/50 mb-2"></i>
+                        <span class="text-[10px] text-slate-500 uppercase">Grafos No Dirigidos</span>
+                    </div>
+                </div>
+
+                <p class="text-gray-300 leading-relaxed mb-8">
+                    La inteligencia se mide por la eficiencia algorítmica. El uso de <span class="text-purple-400 font-semibold">DFS</span> permite optimizar la navegación en estructuras de datos complejas.
+                </p>
+
+                <div class="mt-auto pt-6 border-t border-slate-700/50">
+                    <p class="text-[11px] text-gray-500 font-serif leading-tight">
+                       
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contacto" class="py-20 bg-slate-900 border-t border-slate-800 text-center px-6">
+        <h2 class="text-2xl font-bold mb-6 text-white">TECHFORGE CUSTOM PC</h2>
+        <p class="text-gray-500 mb-8 max-w-md mx-auto italic text-sm">
+            Ensambles optimizados: i5-14600K + RTX 4070.
+        </p>
+        <div class="flex justify-center space-x-8 text-2xl mb-12">
+            <a href="#" class="text-slate-400 hover:text-blue-400 transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-slate-400 hover:text-blue-400 transition"><i class="fab fa-discord"></i></a>
+            <a href="#" class="text-slate-400 hover:text-blue-400 transition"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="text-[10px] text-slate-600 uppercase tracking-[0.3em]">
+            © 2026 TechForge - Proyecto Personal Armado de Computadoras.
+        </p>
+    </footer>
+
+</body>
+</html>
